@@ -1,0 +1,20 @@
+.home {
+    height: 100vh;
+    background: url("../../../../templates/assets/home/background-home-mobile.jpg");
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .home {
+        background: url("../../../../templates/assets/home/background-home-tablet.jpg");
+        background-size: cover;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .home {
+        background: url("../../../../templates/assets/home/background-home-desktop.jpg");
+        background-size: cover;
+    }
+}
