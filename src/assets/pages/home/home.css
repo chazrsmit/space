@@ -1,6 +1,6 @@
 .home {
     height: auto;
-    background: url("../../../../templates/assets/home/background-home-mobile.jpg");
+    background: url("../../../../templates/assets/home/background-home-desktop - Copie.jpg");
     background-size: cover;
     padding-top: 40px;
     position: relative;
@@ -14,7 +14,7 @@
 }
 
 .home-content h1 {
-    font-size: 160px;
+    font-size: clamp(24px, 1vw + 8.2rem, 160px);
     letter-spacing: 8px;
 }
 
@@ -24,6 +24,10 @@
 
 .p1 {
     font-size: 24px;
+}
+
+.para {
+    width: 85%;
 }
 
 .explore {
@@ -43,8 +47,9 @@
 
 @media (min-width: 768px) {
     .home {
-        background: url("../../../../templates/assets/home/background-home-tablet.jpg");
+        background: url("../../../../templates/assets/home/background-home-desktop - Copie.jpg");
         background-size: cover;
+        background-position: center;
         height: 100vh;
     }
 }
