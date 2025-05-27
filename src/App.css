@@ -7,10 +7,10 @@
 body, html {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 body {
-  height: 100vh;
   font-family: "Rubik";
   color: white;
 }
@@ -20,7 +20,7 @@ p {
   margin: 0;
 }
 
-h1 {
+h1, h2 {
   padding: 0;
   font-family: "Forum";
 }

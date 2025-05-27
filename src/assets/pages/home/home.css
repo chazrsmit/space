@@ -1,15 +1,51 @@
 .home {
-    height: 100vh;
+    height: auto;
     background: url("../../../../templates/assets/home/background-home-mobile.jpg");
     background-size: cover;
     padding-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.home-content {
+    height: 74%;
+}
+
+.home-content h1 {
+    font-size: 160px;
+    letter-spacing: 8px;
+}
+
+.home-1, .home-2 {
+    flex: 1;
+}
+
+.p1 {
+    font-size: 24px;
+}
+
+.explore {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore h2 {
+    color: black;
+    font-weight: 200;
 }
 
 @media (min-width: 768px) {
     .home {
         background: url("../../../../templates/assets/home/background-home-tablet.jpg");
         background-size: cover;
-
+        height: 100vh;
     }
 }
 
@@ -17,5 +53,9 @@
     .home {
         background: url("../../../../templates/assets/home/background-home-desktop.jpg");
         background-size: cover;
+        height: 100vh;
+    }
+    .home-content {
+        height: 74%;
     }
 }
