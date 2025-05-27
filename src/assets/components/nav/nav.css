@@ -1,0 +1,37 @@
+nav {
+    height: 96px;
+}
+
+.nav-logo {
+    flex: 0.3;
+    margin-left: 2vw;
+}
+
+.nav-ligne {
+    flex: 1;
+}
+
+.nav-menu {
+    flex: 3;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+
+.nav-menu p {
+    font-weight: 300;
+}
+
+.nav-ligne {
+    display: flex;
+    align-items: center;
+}
+
+.ligne {
+    width: 100%;
+    height: 2px;
+    border: 1px solid white;
+}
