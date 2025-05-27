@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './nav.css'
 import logo from "../../../../templates/assets/shared/logo.svg"
 
@@ -17,18 +17,26 @@ export default function Nav() {
                 <div className="ligne"></div>
             </div>
             <div className="nav-menu d-flex align-items-center justify-content-center gap-5">
-                <div className="link1" aria-current>
-                    <p><Link to="/">00 HOME</Link></p>
-                </div>
-                <div>
-                    <p><Link to ="/destination">01 DESTINATION</Link></p>
-                </div>
-                <div>
-                    <p><Link to="/crew">02 CREW</Link></p>
-                </div>
-                <div>
-                    <p><Link to="/tech">03 TECHNOLOGY</Link></p>
-                </div>
+                <NavLink to="/">
+                    <div className="link1" >
+                        <p>00 HOME</p>
+                    </div>
+                </NavLink>
+                <NavLink to="/destination">
+                    <div className="link1" >
+                        <p>01 DESTINATION</p>
+                    </div>
+                </NavLink>
+                <NavLink to="/crew">
+                    <div className="link1" >
+                        <p>02 CREW</p>
+                    </div>
+                </NavLink>
+                <NavLink to="/technology">
+                    <div className="link1" >
+                        <p>03 TECHNOLOGY</p>
+                    </div>
+                </NavLink>
             </div>
         </nav>
         
