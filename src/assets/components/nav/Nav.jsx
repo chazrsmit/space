@@ -32,7 +32,7 @@ export default function Nav() {
                         <p>02 CREW</p>
                     </div>
                 </NavLink>
-                <NavLink to="/technology">
+                <NavLink to="/tech">
                     <div className="link1" >
                         <p>03 TECHNOLOGY</p>
                     </div>

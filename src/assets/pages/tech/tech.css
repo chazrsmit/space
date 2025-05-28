@@ -1,0 +1,50 @@
+.tech {
+    height: auto;
+    background: url("../../../../templates/assets/technology/background-technology-mobile.jpg");
+    background-size: cover;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media (min-width: 768px) {
+    .tech {
+        background: url("../../../../templates/assets/technology/background-technology-tablet.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tech {
+        background: url("../../../../templates/assets/technology/background-technology-desktop.jpg");
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+.vehicule {
+
+    width: 400px;
+}
+
+.btn-tech {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.503);
+    color: white;
+    font-family: "Forum";
+    font-size: 24px;
+}
+
+.btn-tech.active {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+

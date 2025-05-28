@@ -9,8 +9,8 @@ export default function Douglas() {
     return(
 
         <>
-            <div className="crew-1 d-flex flex-column gap-5 border pt-5">
-                <div className="d-flex flex-column justify-content-between border h-75">
+            <div className="crew-1 d-flex flex-column gap-5 pt-5">
+                <div className="d-flex flex-column justify-content-between h-75">
                     <div>
                         <div>
                             <h4>COMMANDER</h4>
@@ -30,8 +30,8 @@ export default function Douglas() {
                 </div>
             </div>
 
-            <div className="crew-2 border d-flex align-items-end">
-                <img src={douglas} alt="" />
+            <div className="crew-2 d-flex align-items-end">
+                <img className="douglas" src={douglas} alt="" />
             </div>
         </>
     )

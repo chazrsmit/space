@@ -31,10 +31,6 @@
     height: 60vh;
 }
 
-.crew-2 img {
-    width: 300px;
-}
-
 .btn-crew {
     width: 12px;
     height: 12px;
@@ -42,3 +38,21 @@
     border: none;
     opacity: 0.5;
 }
+
+.anousheh {
+    width: 350px;
+}
+
+.douglas {
+    width: 300px;
+}
+
+.mark {
+    width: 270px;
+    background: transparent;
+}
+
+.victor {
+    width: 380px;
+}
+

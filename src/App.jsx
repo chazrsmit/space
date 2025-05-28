@@ -12,6 +12,9 @@ import Anousheh from './assets/pages/crew/Anousheh'
 import Douglas from './assets/pages/crew/Douglas'
 import Mark from './assets/pages/crew/Mark'
 import Victor from './assets/pages/crew/Victor'
+import Vehicule from './assets/pages/tech/Vehicule'
+import Spaceport from './assets/pages/tech/Spaceport'
+import Capsule from './assets/pages/tech/Capsule'
 
 
 function App() {
@@ -35,7 +38,12 @@ function App() {
           <Route path="europa" element={<Europa />} />
           <Route path="titan" element={<Titan />} />
         </Route>
-        <Route path="/tech" element={<Tech />} />
+        <Route path="/tech" element={<Tech />}>
+          <Route index element={<Vehicule />} />
+          <Route path="vehicule" element={<Vehicule />} />
+          <Route path="spaceport" element={<Spaceport />} />
+          <Route path="capsule" element={<Capsule />} />
+        </Route>
       </Routes>
     </>
   )

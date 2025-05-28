@@ -9,8 +9,8 @@ export default function Anousheh() {
     return(
 
         <>
-            <div className="crew-1  d-flex flex-column gap-5 pt-5 border">
-                <div className="d-flex flex-column justify-content-between border h-75">
+            <div className="crew-1 d-flex flex-column gap-5 pt-5">
+                <div className="staff-text d-flex flex-column justify-content-between h-75">
                     <div>
                         <div>
                             <h4>ENGINEER</h4>
@@ -30,8 +30,8 @@ export default function Anousheh() {
                 </div>
             </div>
 
-            <div className="crew-2 d-flex align-items-end border">
-                <img src={anousheh} alt="" />
+            <div className="crew-2 d-flex align-items-end">
+                <img className="anousheh" src={anousheh} alt="" />
             </div>
         </>
     )
