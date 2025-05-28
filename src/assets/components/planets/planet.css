@@ -1,0 +1,9 @@
+.dest-1, .dest-2 {
+    flex: 1;
+}
+
+
+.dest-2 a {
+    text-decoration: none;
+    color: white;
+}
