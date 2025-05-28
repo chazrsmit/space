@@ -1,4 +1,6 @@
+import { Outlet } from 'react-router-dom'
 import './crew.css'
+import Nav from '../../components/nav/Nav'
 
 export default function Crew() {
 
@@ -8,6 +10,27 @@ export default function Crew() {
 
         <>
         
+        <div className="crew">
+
+            <Nav />
+            
+            <div className="home-content d-flex container flex-column px-5">
+
+                <div>
+                    <h6>02 MEET YOUR CREW</h6>
+                </div>
+
+                <div className="d-flex flex-column flex-md-row gap-5">
+
+                    <Outlet />
+                    
+                
+                </div>
+
+            </div>
+
+        </div>
+
         </>
     )
 }

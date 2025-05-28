@@ -1,8 +1,6 @@
 import Nav from '../../components/nav/Nav'
 import './destination.css'
-import json from '../../../planets.json'
 import { Outlet } from 'react-router-dom'
-import Moon from '../../components/planets/Moon'
 
 
 
@@ -22,7 +20,7 @@ export default function Destination() {
                     <h6>01 PICK YOUR DESTINATION</h6>
                 </div>
 
-                <div className="d-flex">
+                <div className="d-flex flex-column flex-md-row">
                 <Outlet />
                 </div>
 

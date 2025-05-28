@@ -1,0 +1,44 @@
+.crew {
+    height: auto;
+    background: url("../../../../templates/assets/crew/background-crew-mobile.jpg");
+    background-size: cover;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media (min-width: 768px) {
+    .crew {
+        background: url("../../../../templates/assets/crew/background-crew-tablet.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .crew {
+        background: url("../../../../templates/assets/crew/background-crew-desktop.jpg");
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+.crew-1, .crew-2 {
+    flex: 1;
+    height: 60vh;
+}
+
+.crew-2 img {
+    width: 300px;
+}
+
+.btn-crew {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.5;
+}
