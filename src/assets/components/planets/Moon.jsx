@@ -52,17 +52,17 @@ const location = useLocation();
                 </div>
 
                 {/* Nom planète */}
-                <div>
-                <h2>Moon</h2>
+                <div className="my-3">
+                    <h2>Moon</h2>
                 </div>
                 {/* Description planète */}
-                <div>
+                <div className="desc">
                     <p>
                         See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
                     </p>
                 </div>
                 {/* Travel time */}
-                <div>
+                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-3 pt-3">
                     <p>
                         Estimated travel time :
                     </p>

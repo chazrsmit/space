@@ -8,7 +8,7 @@ export default function Titan() {
     return(
 
         <>
-            <div className="dest-1 ">
+            <div className="dest-1">
                 <img src={titan} alt="" />
             </div>
 
@@ -51,14 +51,14 @@ export default function Titan() {
 
                 {/* Nom planète */}
                 <div>
-                    <h2>Titan</h2>
+                    <h2 className="my-3">Titan</h2>
                 </div>
                 {/* Description planète */}
-                <div>
+                <div className="desc">
                     <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
                 </div>
                 {/* Travel time */}
-                <div>
+                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-3 pt-3">
                     <p>Estimated travel time:</p>
                     <p>3 years.</p>
                 </div>

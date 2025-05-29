@@ -50,14 +50,14 @@ export default function Europa () {
 
                 {/* Nom planète */}
                 <div>
-                    <h2>Europa</h2>
+                    <h2 className="my-3">Europa</h2>
                 </div>
                 {/* Description planète */}
-                <div>
+                <div className="desc">
                     <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
                 </div>
                 {/* Travel time */}
-                <div>
+                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-3 pt-3">
                     <p>Estimated travel time:</p>
                     <p>3 years.</p>
                 </div>

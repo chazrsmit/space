@@ -51,16 +51,16 @@ export default function Mars () {
 
                 {/* Nom planète */}
                 <div>
-                    <h2>Mars</h2>
+                    <h2 className="my-3">Mars</h2>
                 </div>
                 {/* Description planète */}
-                <div>
+                <div className="desc">
                     <p>
                         Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!
                     </p>
                 </div>
                 {/* Travel time */}
-                <div>
+                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-3 pt-3">
                     <p>
                         Estimated travel time:
                     </p>
