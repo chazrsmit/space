@@ -62,12 +62,12 @@ const location = useLocation();
                     </p>
                 </div>
                 {/* Travel time */}
-                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-3 pt-3">
+                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-5 pt-3">
                     <p>
-                        Estimated travel time :
+                        Est. travel time :
                     </p>
                     <p>
-                        3 days.
+                        3 days
                     </p>
                 </div>
             </div>

@@ -57,9 +57,9 @@ export default function Europa () {
                     <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
                 </div>
                 {/* Travel time */}
-                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-3 pt-3">
-                    <p>Estimated travel time:</p>
-                    <p>3 years.</p>
+                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-5 pt-3">
+                    <p>Est. travel time:</p>
+                    <p>3 years</p>
                 </div>
             </div>
         </>

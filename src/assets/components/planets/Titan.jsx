@@ -58,9 +58,9 @@ export default function Titan() {
                     <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
                 </div>
                 {/* Travel time */}
-                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-3 pt-3">
-                    <p>Estimated travel time:</p>
-                    <p>3 years.</p>
+                <div className="travel border border-secondary border-bottom-0 border-start-0 border-end-0 mt-5 pt-3">
+                    <p>Est. travel time:</p>
+                    <p>3 months</p>
                 </div>
             </div>
         </>
