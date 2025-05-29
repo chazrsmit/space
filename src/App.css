@@ -30,3 +30,12 @@ h1, h2, h3, h4, h5 {
 h6 {
   font-family: "Barlow Condensed";
 }
+
+.page-title h6 {
+  font-size: clamp(14px, 1vw + 2rem, 18px);
+  letter-spacing: 4px;
+}
+
+.page-title h6:first-of-type {
+  color: gray;
+}

@@ -21,28 +21,28 @@ export default function Mars () {
                             isActive || location.pathname === "/destination" ? "active" : ""
                         }
                         >
-                            <div>
+                            <div className="div-planets">
                                 MOON
                             </div>
                         </NavLink>
                     </div>
                     <div>
                         <NavLink to="/destination/mars">
-                            <div>
+                            <div className="div-planets">
                                 MARS
                             </div>
                         </NavLink>
                     </div>
                     <div>
                         <NavLink to="/destination/europa">
-                            <div>
+                            <div className="div-planets">
                                 EUROPA
                             </div>
                         </NavLink>
                     </div>
                     <div>
                         <NavLink to="/destination/titan">
-                            <div>
+                            <div className="div-planets">
                                 TITAN
                             </div>
                         </NavLink>

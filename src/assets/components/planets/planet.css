@@ -15,3 +15,8 @@
   align-items: center;
   border-bottom: 2px solid white;
 }
+
+.div-planets {
+  letter-spacing: 3px;
+  font-family: "Barlow Condensed";
+}

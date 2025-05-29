@@ -9,6 +9,9 @@ export default function Nav() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+    const [isHovered, setIsHovered] = useState(false);
+
+
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
@@ -65,7 +68,7 @@ export default function Nav() {
                 
                 {/* Desktop Menu */}
                 <div className="nav-menu d-flex align-items-center justify-content-center gap-5">
-                    <NavLink to="/" onClick={closeMenu}>
+                    <NavLink to="/" onClick={closeMenu} >
                         <div className="link1">
                             <p>00 HOME</p>
                         </div>

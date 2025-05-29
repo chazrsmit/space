@@ -267,11 +267,26 @@ nav {
         display: none !important;
     }
     
-    [aria-current] {
+    nav a:active, nav a:focus {
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         border-bottom: 2px solid white;
+        transition: all 0.2s ease-in-out;
     }
+
+    .link1 {
+        height: 96px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .link1:hover {
+        border-bottom: 2px solid white;
+    }
+
 }
