@@ -7,3 +7,11 @@
     text-decoration: none;
     color: white;
 }
+
+.active {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+}

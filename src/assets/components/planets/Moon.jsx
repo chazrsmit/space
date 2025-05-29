@@ -1,10 +1,11 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import './planet.css'
 import moon from "../../../../public/img/moon.png"
 
 
 export default function Moon() {
 
+const location = useLocation();
 
     return(
 
@@ -17,7 +18,11 @@ export default function Moon() {
                 {/* Links */}
                 <div className="d-flex gap-5">
                     <div>
-                        <NavLink to="/destination/moon">
+                        <NavLink to="/destination/moon"
+                        className={({ isActive }) =>
+                            isActive || location.pathname === "/destination" ? "active" : ""
+                        }
+                        >
                             <div>
                                 MOON
                             </div>

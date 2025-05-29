@@ -10,7 +10,7 @@ export default function Capsule() {
     return(
 
         <>
-            <div className="crew-1 d-flex gap-5 pt-5 border align-items-center">
+            <div className="crew-1 d-flex gap-5 pt-5 align-items-center">
                 <div className="div-buttons d-flex flex-column gap-4">
                     {/* On ne va pas utiliser NavLink; on va mettre une condition directement sur le bouton. Si le nom de l'url correspond à capsule par exemple, c'est que capsule est actif et on lui applique la classe correspondante. */}
                     <button
@@ -33,14 +33,14 @@ export default function Capsule() {
                     </button>
                 </div>
 
-                <div className="w-75">
-                    <p>The terminology...</p>
+                <div className="tech-texts w-75">
+                    <h6>THE TERMINOLOGY...</h6>
                     <h3>SPACE CAPSULE</h3>
                     <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
                 </div>
             </div>
 
-            <div className="crew-2 d-flex align-items-end justify-content-center border">
+            <div className="crew-2 d-flex align-items-end justify-content-center">
                 <img className="vehicule" src={capsule} alt="" />
             </div>
         </>

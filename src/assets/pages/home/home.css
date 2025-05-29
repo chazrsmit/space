@@ -1,5 +1,5 @@
 .home {
-    height: auto;
+    height: 100vh;
     background: url("../../../../templates/assets/home/background-home-desktop - Copie.jpg");
     background-size: cover;
     padding-top: 40px;
@@ -14,20 +14,22 @@
 }
 
 .home-content h1 {
-    font-size: clamp(24px, 1vw + 8.2rem, 160px);
-    letter-spacing: 8px;
+    font-size: 60px;
+    letter-spacing: 4px;
 }
 
 .home-1, .home-2 {
     flex: 1;
 }
 
-.p1 {
-    font-size: 24px;
+.h6-home {
+    font-size: 26px;
+    font-weight: 400;
 }
 
 .para {
     width: 85%;
+    font-weight: 300;
 }
 
 .explore {
@@ -63,4 +65,12 @@
     .home-content {
         height: 74%;
     }
+
+    .home-content h1 {
+        font-size: clamp(24px, 1vw + 9rem, 170px);
+        letter-spacing: 8px;
+    }
+
+
+
 }

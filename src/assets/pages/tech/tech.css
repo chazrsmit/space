@@ -43,8 +43,18 @@
 }
 
 .btn-tech.active {
-  background-color: white;
-  font-weight: bold;
-  color: black;
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
+.crew-1 p:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tech-texts {
+    height: 210px;
+}

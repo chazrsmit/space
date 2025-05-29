@@ -16,7 +16,11 @@ export default function Mars () {
                 {/* Links */}
                 <div className="d-flex gap-5">
                     <div>
-                        <NavLink to="/destination/moon">
+                        <NavLink to="/destination/moon"
+                        className={({ isActive }) =>
+                            isActive || location.pathname === "/destination" ? "active" : ""
+                        }
+                        >
                             <div>
                                 MOON
                             </div>

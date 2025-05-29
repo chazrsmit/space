@@ -9,7 +9,7 @@ export default function Vehicule() {
     return(
 
         <>
-            <div className="crew-1 d-flex gap-5 pt-5 border align-items-center">
+            <div className="crew-1 d-flex gap-5 pt-5 align-items-center">
                 <div className="div-buttons d-flex flex-column gap-4">
                     <button
                         className={`btn-tech ${location.pathname === "/tech" ? "active" : ""}`}
@@ -31,14 +31,14 @@ export default function Vehicule() {
                     </button>
                 </div>
 
-                <div className="w-75">
-                    <p>The terminology...</p>
+                <div className="tech-texts w-75">
+                    <h6>THE TERMINOLOGY...</h6>
                     <h3>LAUNCH VEHICULE</h3>
                     <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
                 </div>
             </div>
 
-            <div className="crew-2 d-flex align-items-end justify-content-center border">
+            <div className="crew-2 d-flex align-items-end justify-content-center">
                 <img className="vehicule" src={vehicule} alt="" />
             </div>
         </>
