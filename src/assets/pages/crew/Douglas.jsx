@@ -9,8 +9,8 @@ export default function Douglas() {
     return(
 
         <>
-            <div className="crew-1 d-flex flex-column gap-5 pt-5">
-                <div className="d-flex flex-column justify-content-between h-75">
+            <div className=" crew-1 d-flex flex-column gap-5 pt-5">
+                <div className=" d-flex flex-column justify-content-between h-75">
                     <div>
                         <div>
                             <h4>COMMANDER</h4>
@@ -21,7 +21,7 @@ export default function Douglas() {
                         </p>
                     </div>
 
-                    <div className="d-flex gap-1">
+                    <div className="d-flex gap-4">
                         <button className="btn-crew" onClick={() => navigate("/crew/douglas")}></button>
                         <button className="btn-crew" onClick={() => navigate("/crew/anousheh")}></button>
                         <button className="btn-crew" onClick={() => navigate("/crew/mark")}></button>
@@ -30,7 +30,7 @@ export default function Douglas() {
                 </div>
             </div>
 
-            <div className="crew-2 d-flex align-items-end">
+            <div className=" crew-2 d-flex align-items-end">
                 <img className="douglas" src={douglas} alt="" />
             </div>
         </>

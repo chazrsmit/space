@@ -14,7 +14,7 @@
         background: url("../../../../templates/assets/crew/background-crew-tablet.jpg");
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: auto;
     }
 }
 
@@ -28,7 +28,7 @@
 
 .crew-1, .crew-2 {
     flex: 1;
-    height: 60vh;
+    height: 65vh;
 }
 
 .btn-crew {
