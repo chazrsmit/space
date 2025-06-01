@@ -20,7 +20,7 @@ export default function Crew() {
                     <h6>02</h6><h6>MEET YOUR CREW</h6>
                 </div>
 
-                <div className="d-flex flex-column-reverse flex-md-row gap-5">
+                <div className=" h-100 d-flex flex-column-reverse flex-md-row gap-5">
 
                     <Outlet />
                     

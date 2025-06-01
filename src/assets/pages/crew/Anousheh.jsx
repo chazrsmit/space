@@ -1,18 +1,19 @@
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import './crew.css'
 import anousheh from "../../../../templates/assets/crew/image-anousheh-ansari.png"
 
 export default function Anousheh() {
 
     let navigate = useNavigate()
+    let location = useLocation()
 
     return(
 
         <>
             <div className="crew-1 d-flex flex-column gap-5 pt-5">
-                <div className="staff-text d-flex flex-column justify-content-between h-75">
+                <div className="staff-text d-flex flex-column justify-content-between h-75 pt-5">
                     <div>
-                        <div>
+                        <div className="mb-4">
                             <h4>ENGINEER</h4>
                             <h3>ANOUSHEH ANSARI</h3>
                         </div>
@@ -21,11 +22,11 @@ export default function Anousheh() {
                         </p>
                     </div>
 
-                    <div className="d-flex gap-1">
-                        <button className="btn-crew" onClick={() => navigate("/crew/douglas")}></button>
-                        <button className="btn-crew" onClick={() => navigate("/crew/anousheh")}></button>
-                        <button className="btn-crew" onClick={() => navigate("/crew/mark")}></button>
-                        <button className="btn-crew" onClick={() => navigate("/crew/victor")}></button>
+                    <div className="d-flex gap-3">
+                        <button className={`btn-crew ${(location.pathname === "/crew" || location.pathname.includes("/douglas")) ? "selected" : ""}}`} onClick={() => navigate("/crew/douglas")}></button>
+                        <button className={`btn-crew ${location.pathname.includes("/anousheh") ? "selected" : ""}`} onClick={() => navigate("/crew/anousheh")}></button>
+                        <button className={`btn-crew ${location.pathname.includes("/mark") ? "selected" : ""}`} onClick={() => navigate("/crew/mark")}></button>
+                        <button className={`btn-crew ${location.pathname.includes("/victor") ? "selected" : ""}`} onClick={() => navigate("/crew/victor")}></button>
                     </div>
                 </div>
             </div>

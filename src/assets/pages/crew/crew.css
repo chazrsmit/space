@@ -28,8 +28,9 @@
 
 .crew-1, .crew-2 {
     flex: 1;
-    height: 65vh;
+    height: 100%;
 }
+
 
 .btn-crew {
     width: 12px;
@@ -39,12 +40,16 @@
     opacity: 0.5;
 }
 
+.btn-crew.selected {
+    opacity: 1;
+}
+
 .anousheh {
     width: 350px;
 }
 
 .douglas {
-    width: 300px;
+    width: 330px;
 }
 
 .mark {
@@ -56,3 +61,16 @@
     width: 380px;
 }
 
+.crew-1 p{
+    font-weight: 300;
+    font-size: 16px;
+    width: 82%;
+}
+
+.crew-1 h3 {
+    font-size: 50px;
+}
+
+.crew-1 h4 {
+    font-size: 30px;
+}

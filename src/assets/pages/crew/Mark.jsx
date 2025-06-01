@@ -1,10 +1,11 @@
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import './crew.css'
 import mark from "../../../../templates/assets/crew/image-mark-shuttleworth.png"
 
 export default function Mark() {
 
     let navigate = useNavigate()
+    let location = useLocation()
 
     return(
 
@@ -21,11 +22,11 @@ export default function Mark() {
                         </p>
                     </div>
 
-                    <div className="d-flex gap-1">
-                        <button className="btn-crew" onClick={() => navigate("/crew/douglas")}></button>
-                        <button className="btn-crew" onClick={() => navigate("/crew/anousheh")}></button>
-                        <button className="btn-crew" onClick={() => navigate("/crew/mark")}></button>
-                        <button className="btn-crew" onClick={() => navigate("/crew/victor")}></button>
+                    <div className="d-flex gap-3">
+                        <button className={`btn-crew ${(location.pathname === "/crew" || location.pathname === "/crew/douglas") ? "selected" : ""}}`} onClick={() => navigate("/crew/douglas")}></button>
+                        <button className={`btn-crew ${location.pathname.includes("/anousheh") ? "selected" : ""}`} onClick={() => navigate("/crew/anousheh")}></button>
+                        <button className={`btn-crew ${location.pathname.includes("/mark") ? "selected" : ""}`} onClick={() => navigate("/crew/mark")}></button>
+                        <button className={`btn-crew ${location.pathname.includes("/victor") ? "selected" : ""}`} onClick={() => navigate("/crew/victor")}></button>
                     </div>
                 </div>
             </div>
