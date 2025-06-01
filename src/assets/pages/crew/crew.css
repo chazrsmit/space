@@ -44,6 +44,7 @@
     .anousheh, .douglas, .mark, .victor {
         max-width: 300px !important;
     }
+    
 }
 
 @media (min-width: 1024px) {
@@ -68,13 +69,17 @@
 
 }
 
-/* .d-flex.container.flex-column.px-5 > .h-100.d-flex.flex-column.flex-md-row.gap-5 {
+.d-flex.container.flex-column.px-5 > .h-100.d-flex.flex-column.flex-md-row.gap-5 {
     height: 100%;
-    min-height: 70vh;
-} */
+    /* min-height: 70vh; */
+}
 
 .h-100.d-flex.flex-column.flex-md-row.gap-5 {
     gap: 3rem;
+}
+
+.staff-text {
+    height: 300px !important;
 }
 /* 
 .crew-1, .crew-2 {
