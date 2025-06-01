@@ -14,7 +14,7 @@ export default function Titan() {
 
             <div className="dest-2 ">
                 {/* Links */}
-                <div className="d-flex gap-5">
+                <div className="d-flex linksss">
                     <div>
                         <NavLink to="/destination/moon"
                         className={({ isActive }) =>

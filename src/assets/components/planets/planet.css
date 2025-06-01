@@ -2,6 +2,11 @@
     flex: 1;
 }
 
+.dest-1 {
+  display: flex;
+  justify-content: center;
+}
+
 
 .dest-2 a {
     text-decoration: none;
@@ -22,13 +27,13 @@
 }
 
 .dest-1 img {
-  width: 240px;
+  width: 280px;
 }
 
 .dest-2 h2 {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 80px;
+  font-size: 80px !important;
 }
 
 .desc p {
@@ -36,8 +41,10 @@
 }
 
 .desc, .travel {
-  width: 85%;
+  width: 100%;
 }
+
+
 
 .travel p:first-of-type {
   color: #d0d4e8;
@@ -58,10 +65,15 @@
   font-size: 30px;
 }
 
+.linksss {
+  gap: 30px;
+}
+
 
 @media (min-width : 1024px) {
   .dest-1 img {
-    width: 400px;
+    width: 350px;
+    height: 350px;
   }
 
   .dest-2 h2 {
@@ -70,5 +82,9 @@
 
   .travel {
   padding-left: 220px;
+  }
+
+  .desc, .travel {
+  width: 85%;
   }
 }

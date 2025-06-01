@@ -15,7 +15,7 @@ export default function Tech() {
 
             <Nav />
             
-            <div className="home-content d-flex container flex-column px-5">
+            <div className=" d-flex container flex-column px-5">
 
                 <div className="page-title d-flex gap-3">
                     <h6>03</h6><h6>SPACE LAUNCH 101</h6>

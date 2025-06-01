@@ -11,7 +11,7 @@ export default function Douglas() {
 
         <>
             <div className=" crew-1 d-flex flex-column gap-5 pt-5">
-                <div className=" d-flex flex-column justify-content-between h-75 pt-5">
+                <div className=" staff-text d-flex flex-column justify-content-between h-75 addpadding">
                     <div>
                         <div className="mb-3">
                             <h4>COMMANDER</h4>

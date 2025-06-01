@@ -10,8 +10,8 @@ export default function Anousheh() {
     return(
 
         <>
-            <div className="crew-1 d-flex flex-column gap-5 pt-5">
-                <div className="staff-text d-flex flex-column justify-content-between h-75 pt-5">
+            <div className=" crew-1 d-flex flex-column gap-5 pt-5">
+                <div className=" staff-text d-flex flex-column justify-content-between h-75 addpadding">
                     <div>
                         <div className="mb-3">
                             <h4>ENGINEER</h4>
@@ -22,7 +22,7 @@ export default function Anousheh() {
                         </p>
                     </div>
 
-                    <div className="d-flex gap-3">
+                    <div className="boutons-crew d-flex gap-3">
                         <button className={`btn-crew ${(location.pathname === "/crew" || location.pathname.includes("/douglas")) ? "selected" : ""}}`} onClick={() => navigate("/crew/douglas")}></button>
                         <button className={`btn-crew ${location.pathname.includes("/anousheh") ? "selected" : ""}`} onClick={() => navigate("/crew/anousheh")}></button>
                         <button className={`btn-crew ${location.pathname.includes("/mark") ? "selected" : ""}`} onClick={() => navigate("/crew/mark")}></button>
@@ -31,7 +31,7 @@ export default function Anousheh() {
                 </div>
             </div>
 
-            <div className="crew-2 d-flex align-items-end">
+            <div className=" crew-2 d-flex align-items-end">
                 <img className="anousheh" src={anousheh} alt="" />
             </div>
         </>

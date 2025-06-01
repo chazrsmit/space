@@ -1,7 +1,7 @@
 .tech {
-    height: 150vh;
+    height: auto;
     background: url("../../../../templates/assets/technology/background-technology-mobile.jpg");
-    background-size: cover;
+    background-size: contain;
     padding-top: 40px;
     position: relative;
     display: flex;
@@ -14,7 +14,7 @@
         background: url("../../../../templates/assets/technology/background-technology-tablet.jpg");
         background-size: cover;
         background-position: center;
-        height: auto;
+        height: 110vh;
     }
 }
 

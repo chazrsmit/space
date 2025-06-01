@@ -1,9 +1,8 @@
-.crew {
-    height: auto;
+/* .crew {
+    height: 150vh;
     background: url("../../../../templates/assets/crew/background-crew-mobile.jpg");
     background-size: cover;
     padding-top: 40px;
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -16,30 +15,139 @@
         background-position: center;
         height: auto;
     }
+} */
+
+.crew {
+    min-height: 100vh;
+    background: url("../../../../templates/assets/crew/background-crew-mobile.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 40px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media (min-width: 768px) {
+    .crew {
+        background: url("../../../../templates/assets/crew/background-crew-tablet.jpg") no-repeat center center;
+        background-size: cover;
+    }
 }
 
 @media (min-width: 1024px) {
     .crew {
-        background: url("../../../../templates/assets/crew/background-crew-desktop.jpg");
+        background: url("../../../../templates/assets/crew/background-crew-desktop.jpg") no-repeat center center;
         background-size: cover;
-        height: 100vh;
+        padding-top: 0;
+    }
+
+    .anousheh, .douglas, .mark, .victor {
+        max-width: 300px !important;
     }
 }
 
+@media (min-width: 1024px) {
+    /* .crew {
+        background: url("../../../../templates/assets/crew/background-crew-desktop.jpg");
+        background-size: cover;
+        height: 100vh;
+    } */
+
+    /* .crew-2 {
+    height: 400px !important;
+    }
+
+    .crew-1 p {
+        width: 82%;
+    }
+
+    .crew-1 h3 {
+    font-size: 50px;
+    } */
+
+
+}
+
+/* .d-flex.container.flex-column.px-5 > .h-100.d-flex.flex-column.flex-md-row.gap-5 {
+    height: 100%;
+    min-height: 70vh;
+} */
+
+.h-100.d-flex.flex-column.flex-md-row.gap-5 {
+    gap: 3rem;
+}
+/* 
 .crew-1, .crew-2 {
     flex: 1;
     height: 100%;
+} */
+
+/* Crew member flex containers */
+.crew-1, .crew-2 {
+    flex: 1 1 50%;
+    width: 100%;
 }
 
+/* Buttons container */
+.boutons-crew {
+    margin-top: auto;
+}
 
+.crew-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 400px;
+}
+
+/* Image sizing */
+.anousheh, .douglas, .mark, .victor {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background: transparent;
+}
+
+.crew-2 img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Text styles */
+.crew-1 h3 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    margin: 0;
+}
+
+.crew-1 h4 {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: #d0d4e8;
+    margin: 0;
+}
+
+.crew-1 p {
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    color: #d0d4e8;
+    margin: 0;
+}
+
+/* Button styles */
 .btn-crew {
     width: 12px;
     height: 12px;
     border-radius: 50%;
     border: none;
     opacity: 0.5;
+    cursor: pointer;
 }
 
+.btn-crew.selected {
+    opacity: 1;
+}
+
+
+
+/* 
 .btn-crew.selected {
     opacity: 1;
 }
@@ -49,29 +157,34 @@
 }
 
 .douglas {
-    width: 330px;
+    width: 300px;
 }
 
 .mark {
     width: 270px;
     background: transparent;
-}
+} */
 
-.victor {
-    width: 380px;
+/* .victor {
+    width: 300px;
 }
 
 .crew-1 p{
+
     font-size: 16px;
-    width: 82%;
+    width: 100%;
     color: #d0d4e8;
 }
 
 .crew-1 h3 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .crew-1 h4 {
     font-size: 30px;
     color: #d0d4e8;
 }
+
+.addpadding {
+    padding-top: 0px;
+} */

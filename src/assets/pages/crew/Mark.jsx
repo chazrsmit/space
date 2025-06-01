@@ -10,8 +10,8 @@ export default function Mark() {
     return(
 
         <>
-            <div className="crew-1  d-flex flex-column gap-5 pt-5">
-                <div className="d-flex flex-column justify-content-between h-75 pt-5">
+            <div className=" crew-1 d-flex flex-column gap-5 pt-5">
+                <div className=" staff-text d-flex flex-column justify-content-between h-75 addpadding">
                     <div>
                         <div className="mb-3">
                             <h4>MISSION SPECIALIST</h4>
@@ -31,7 +31,7 @@ export default function Mark() {
                 </div>
             </div>
 
-            <div className="crew-2 d-flex align-items-end">
+            <div className=" crew-2 d-flex align-items-end">
                 <img className="mark" src={mark} alt="" />
             </div>
         </>

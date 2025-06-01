@@ -13,7 +13,7 @@ export default function Europa () {
 
             <div className="dest-2 ">
                 {/* Links */}
-                <div className="d-flex gap-5">
+                <div className="linksss d-flex">
                     <div>
                         <NavLink to="/destination/moon"
                         className={({ isActive }) =>

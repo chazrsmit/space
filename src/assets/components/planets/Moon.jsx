@@ -10,13 +10,13 @@ const location = useLocation();
     return(
 
         <>
-            <div className="dest-1 ">
+            <div className="dest-1">
                 <img src={moon} alt="" />
             </div>
 
             <div className="dest-2 ">
                 {/* Links */}
-                <div className="d-flex gap-5">
+                <div className="d-flex linksss">
                     <div>
                         <NavLink to="/destination/moon"
                         className={({ isActive }) =>

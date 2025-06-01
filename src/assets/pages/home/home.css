@@ -1,7 +1,85 @@
-.home {
+    /* .home {
+        height: 100vh;
+        background: url("../../../../templates/assets/home/background-home-desktop - Copie.jpg");
+        background-size: cover;
+        padding-top: 40px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .home-content {
+        height: 74%;
+    }
+
+    .home-content h1 {
+        font-size: 60px;
+        letter-spacing: 4px;
+    }
+
+    .home-1, .home-2 {
+        flex: 1;
+    }
+
+    .h6-home {
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    .para {
+        width: 85%;
+        font-weight: 300;
+    }
+
+    .explore {
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .explore h2 {
+        color: black;
+        font-weight: 200;
+    }
+
+    @media (min-width: 768px) {
+        .home {
+            background: url("../../../../templates/assets/home/background-home-desktop - Copie.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .home {
+            background: url("../../../../templates/assets/home/background-home-desktop.jpg");
+            background-size: cover;
+            height: 100vh;
+        }
+        .home-content {
+            height: 74%;
+        }
+
+        .home-content h1 {
+            font-size: clamp(24px, 1vw + 9rem, 170px);
+            letter-spacing: 8px;
+        }
+
+
+
+    } */
+
+    .home {
     height: 100vh;
     background: url("../../../../templates/assets/home/background-home-desktop - Copie.jpg");
     background-size: cover;
+    background-position: center;
     padding-top: 40px;
     position: relative;
     display: flex;
@@ -11,28 +89,44 @@
 
 .home-content {
     height: 74%;
-}
-
-.home-content h1 {
-    font-size: 60px;
-    letter-spacing: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
 }
 
 .home-1, .home-2 {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .h6-home {
-    font-size: 26px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.home-content h1 {
+    font-size: clamp(2.5rem, 8vw, 10rem);
+    letter-spacing: 4px;
+    margin: 0;
 }
 
 .para {
-    width: 85%;
+    width: 90%;
+    max-width: 600px;
     font-weight: 300;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    margin: 0;
 }
 
 .explore {
+    position: relative;
     width: 260px;
     height: 260px;
     border-radius: 50%;
@@ -40,19 +134,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    transition: transform 0.3s ease;
+}
+
+.explore:hover {
+    transform: scale(1.05);
 }
 
 .explore h2 {
     color: black;
     font-weight: 200;
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
 }
 
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+
 @media (min-width: 768px) {
-    .home {
-        background: url("../../../../templates/assets/home/background-home-desktop - Copie.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
+    .home-content {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .home-1 {
+        align-items: flex-start;
+    }
+
+    .home-2 {
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -60,17 +183,7 @@
     .home {
         background: url("../../../../templates/assets/home/background-home-desktop.jpg");
         background-size: cover;
+        background-position: center;
         height: 100vh;
     }
-    .home-content {
-        height: 74%;
-    }
-
-    .home-content h1 {
-        font-size: clamp(24px, 1vw + 9rem, 170px);
-        letter-spacing: 8px;
-    }
-
-
-
 }
