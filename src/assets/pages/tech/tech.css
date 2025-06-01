@@ -27,7 +27,6 @@
 }
 
 .vehicule {
-
     width: 400px;
 }
 
@@ -56,5 +55,14 @@
 }
 
 .tech-texts {
-    height: 210px;
+    height: 280px;
+
+}
+
+.tech-texts h3 {
+    font-size: 40px;
+}
+
+.crew-1.techh {
+    height: 300px;
 }

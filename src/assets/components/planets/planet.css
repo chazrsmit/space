@@ -5,7 +5,7 @@
 
 .dest-2 a {
     text-decoration: none;
-    color: white;
+    color: #d0d4e8;
 }
 
 .active {
@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #d0d4e8;
 }
 
 .div-planets {
@@ -31,8 +31,16 @@
   font-size: 80px;
 }
 
+.desc p {
+  color: #d0d4e8;
+}
+
 .desc, .travel {
   width: 85%;
+}
+
+.travel p:first-of-type {
+  color: #d0d4e8;
 }
 
 /* .desc {

@@ -17,11 +17,11 @@ export default function Tech() {
             
             <div className="home-content d-flex container flex-column px-5">
 
-                <div>
-                    <h6>03 SPACE LAUNCH 101</h6>
+                <div className="page-title d-flex gap-3">
+                    <h6>03</h6><h6>SPACE LAUNCH 101</h6>
                 </div>
 
-                <div className="d-flex flex-column-reverse flex-md-row gap-5">
+                <div className=" d-flex flex-column-reverse flex-md-row gap-5 align-items-center">
 
                     <Outlet />
                     

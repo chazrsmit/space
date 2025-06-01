@@ -62,9 +62,9 @@
 }
 
 .crew-1 p{
-    font-weight: 300;
     font-size: 16px;
     width: 82%;
+    color: #d0d4e8;
 }
 
 .crew-1 h3 {
@@ -73,4 +73,5 @@
 
 .crew-1 h4 {
     font-size: 30px;
+    color: #d0d4e8;
 }

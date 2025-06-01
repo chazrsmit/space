@@ -13,7 +13,7 @@ export default function Douglas() {
             <div className=" crew-1 d-flex flex-column gap-5 pt-5">
                 <div className=" d-flex flex-column justify-content-between h-75 pt-5">
                     <div>
-                        <div className="mb-4">
+                        <div className="mb-3">
                             <h4>COMMANDER</h4>
                             <h3>DOUGLAS HURLEY</h3>
                         </div>
