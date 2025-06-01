@@ -1,10 +1,11 @@
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import './tech.css'
 import vehicule from "../../../../templates/assets/technology/image-launch-vehicle-portrait.jpg"
 
 export default function Vehicule() {
 
     let navigate = useNavigate()
+    let location = useLocation()
 
     return(
 

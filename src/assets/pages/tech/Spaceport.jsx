@@ -1,12 +1,13 @@
 import './tech.css'
 import spaceport from "../../../../templates/assets/technology/image-spaceport-portrait.jpg"
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 
 export default function Spaceport() {
 
 
     let navigate = useNavigate()
+    let location = useLocation()
 
     return(
 
